@@ -5,9 +5,10 @@ Blood pressure is a vital sign that provides important information about the hea
 
 ## Objectives:
 
-- To develop a non-invasive method for the calculation of Pulse Transit Time using PPG signals.
-- To develop a continuous method of blood pressure monitoring using PPG signals for patients with hypertension or other cardiovascular diseases.
-- To develop a predictive model using Pulse Transit Time(PTT) to estimate blood pressure using an existing dataset.
+- To develop a non-invasive approach to derive Pulse Transit Time from PPG signals.
+- Implement continuous blood pressure monitoring for individuals with hypertension or cardiovascular diseases using PPG signals.
+- Utilize a predictive model integrating Pulse Transit Time (PTT) to estimate blood pressure, based on an existing dataset.
+
 
 ## Components Used:
 
@@ -17,10 +18,11 @@ Blood pressure is a vital sign that provides important information about the hea
 
 ## Working Principle:
 
-- The Arduino UNO is connected to the HW-827 pulse sensor. The pulse values are used to plot the PPG waveform.They are initially displayed on the serial plotter of the Arduino UNO. 
+- The Arduino UNO is connected to the HW-827 pulse sensor. The pulse values are used to plot the PPG waveform. They are initially displayed on the serial plotter of the Arduino UNO. 
 - PPG signals are taken from two sites, namely, the wrist and the finger.
 - The waveforms thus obtained are further processed and filtered using MATLAB. A combination of a low pass butterworth filter and a notch filter is used for filtering.
 - The maximum peaks of each of the respective signals is calculated and the time corresponding to the same is noted. The difference between the two is calculated, which is the Pulse Transit Time.
 - A linear regression model is used for the estimation of blood pressure.
--  A dataset with the values of Systolic and diastolic blood pressures, and Pulse Transit Time (PTT) is used.
+- An exising dataset with the values of Systolic and diastolic blood pressures, and Pulse Transit Time (PTT) is used.
 - The systolic and diastolic blood pressures are measured using a digital BP machine. A relationship between Pulse Transit Time (PTT) and Blood Pressure is calculated and the future blood pressure values can be predicted using the above.
+
