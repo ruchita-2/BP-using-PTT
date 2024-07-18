@@ -1,6 +1,6 @@
 # Non-Invasive Calculation of Pulse Transit Time Using PPG Signals
 
-Blood pressure is a vital sign that provides important information about the health status of an individual. Traditional blood pressure measurement techniques may be invasive and uncomfortable, and often require trained medical personnel. This project explores a cuffless and non-invasive method for deriving Pulse Transit Time (PTT) from PPG signals, which could potentially contribute to continuous health monitoring solutions for individuals with hypertension and cardiovascular conditions.
+Pulse Transit Time (PTT) is the time it takes for the arterial pulse pressure wave to travel between two arterial sites. This project explores a cuffless and non-invasive method for deriving PTT from Photoplethysmogram (PPG) signals, which could potentially contribute to continuous health monitoring solutions for individuals with hypertension and cardiovascular conditions.
 
 ## Objectives:
 
