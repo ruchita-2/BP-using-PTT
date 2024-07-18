@@ -1,14 +1,11 @@
-# Estimation of Blood Pressure using Pulse Transit Time
+# Non-Invasive Calculation of Pulse Transit Time Using PPG Signals
 
-Blood pressure is a vital sign that provides important information about the health status of an individual. However, traditional blood pressure measurement techniques may be invasive and uncomfortable, and often require trained medical personnel. This project aims to develop a cuffless and non-invasive method for estimating blood pressure using PPG signals. By providing a non-invasive and continuous monitoring solution, this technology can enhance the quality of care for individuals with hypertension and cardiovascular conditions.
-
+Blood pressure is a vital sign that provides important information about the health status of an individual. Traditional blood pressure measurement techniques may be invasive and uncomfortable, and often require trained medical personnel. This project explores a cuffless and non-invasive method for deriving Pulse Transit Time (PTT) from PPG signals, which could potentially contribute to continuous health monitoring solutions for individuals with hypertension and cardiovascular conditions.
 
 ## Objectives:
 
 - To develop a non-invasive approach to derive Pulse Transit Time from PPG signals.
 - Implement continuous blood pressure monitoring for individuals with hypertension or cardiovascular diseases using PPG signals.
-- Utilize a predictive model integrating Pulse Transit Time (PTT) to estimate blood pressure, based on an existing dataset.
-
 
 ## Components Used:
 
@@ -22,7 +19,4 @@ Blood pressure is a vital sign that provides important information about the hea
 - PPG signals are taken from two sites, namely, the wrist and the finger.
 - The waveforms thus obtained are further processed and filtered using MATLAB. A combination of a low pass butterworth filter and a notch filter is used for filtering.
 - The maximum peaks of each of the respective signals is calculated and the time corresponding to the same is noted. The difference between the two is calculated, which is the Pulse Transit Time.
-- A linear regression model is used for the estimation of blood pressure.
-- An exising dataset with the values of Systolic and diastolic blood pressures, and Pulse Transit Time (PTT) is used.
-- The systolic and diastolic blood pressures are measured using a digital BP machine. A relationship between Pulse Transit Time (PTT) and Blood Pressure is calculated and the future blood pressure values can be predicted using the above.
 
