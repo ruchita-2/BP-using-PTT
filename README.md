@@ -5,7 +5,6 @@ Pulse Transit Time (PTT) is the time it takes for the arterial pulse pressure wa
 ## Objectives:
 
 - To develop a non-invasive approach to derive Pulse Transit Time from PPG signals.
-- Implement continuous blood pressure monitoring for individuals with hypertension or cardiovascular diseases using PPG signals.
 
 ## Components Used:
 
